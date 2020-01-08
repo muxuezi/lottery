@@ -10,20 +10,26 @@
 
 # 演示代码
 
-1. 双色球预测效果演示
-    ssq_dream.ipynb 
-2. 详情页爬虫
+1. 双色球预测效果演示  
+    ssq_dream.ipynb
+2. 详情页爬虫  
     lott_crawler.py
-3. flask极简CRUD后台
-    app.py
+3. flask极简CRUD后台  
+    ```cmd
+    set FLASK_APP=app.py
+    set FLASK_ENV=development
+    flask db migrate
+    flask run
+    ```
+    浏览器打开 http://127.0.0.1:5000/admin/lottery
 
 # 预测结果
 
-1. 获取最新数据
+1. 获取最新数据  
     python adata.py
-2. 双色球
+2. 双色球  
     python ssq_dream.py
-3. 大乐透
+3. 大乐透  
     python dlt_dream.py
-4. 3D
+4. 3D  
     python 3ds_dream.py
