@@ -1,0 +1,7 @@
+# lxml
+# BeautifulSoup4
+tqdm
+pandas
+flask
+flask-admin
+flask-migrate
